@@ -1,0 +1,15 @@
+/* miniprogram/templates/templates.wxss */
+.message{
+    height: 60px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    line-height: 60px;
+}
+.message .name{
+    float: left;
+    font-size: 12px;
+    color:orange;
+}
+.message .messages{
+    float: right;
+}

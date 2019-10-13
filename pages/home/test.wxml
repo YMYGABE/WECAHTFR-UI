@@ -1,0 +1,4 @@
+<view >
+    <text>这只是一个调用\n</text>
+    <text>{{none}}</text>
+</view>

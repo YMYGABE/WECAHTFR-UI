@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/game/game",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/person/person",
+    "pages/RainBowSix/RainBowSix",
+    "pages/PCgames/PCgames",
+    "templates/templates",
+    "pages/search/search",
+    "pages/CreateRoom/CreateRoom",
+    "pages/FindRoom/FindRoom",
+    "components/BackTitle/BackTitle"
+  ],
+  "window": {
+    "backgroundColor": "#0081ff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "友时",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#0b0b0a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "发现",
+        "iconPath": "images/home1.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "游戏",
+        "iconPath": "images/game.png",
+        "selectedIconPath": "images/game-selected.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person-selected.png"
+      }
+    ],
+    "sitemapLocation": "sitemap.json"
+  },
+  "sitemapLocation": "sitemap92.json",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

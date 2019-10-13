@@ -1,0 +1,7 @@
+<!--miniprogram/templates/templates.wxml-->
+<template name="file1">
+    <view class="message">
+        <text class="name" >{{name}}</text>
+        <text class="messages" >{{messages}}</text>
+    </view>
+</template>

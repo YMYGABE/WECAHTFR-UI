@@ -1,0 +1,13 @@
+/* miniprogram/components/BackTitle/BackTitle.wxss */
+.titleBack{
+    position: fixed;
+    margin-top: 0rpx;
+    width: 100%;
+    height: 160rpx;
+}
+.BackToHome{
+    margin-top: 80rpx;
+    width: 100rpx;
+    height: 30rpx;
+    font-size: 40rpx;
+}

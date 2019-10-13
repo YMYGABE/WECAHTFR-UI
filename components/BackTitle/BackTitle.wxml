@@ -1,0 +1,6 @@
+<!--miniprogram/components/BackTitle/BackTitle.wxml-->
+<view class="titleBack,bg-orange padding radius text-center light">
+    <view class="BackToHome" bind:tap="BackTo">
+         返回
+    </view>
+</view>   
