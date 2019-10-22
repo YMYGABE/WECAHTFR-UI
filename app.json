@@ -22,7 +22,8 @@
     "pages/search/search",
     "pages/CreateRoom/CreateRoom",
     "pages/FindRoom/FindRoom",
-    "components/BackTitle/BackTitle"
+    "components/BackTitle/BackTitle",
+    "components/LogBindTap/LogBindTap"
   ],
   "window": {
     "backgroundColor": "#0081ff",
