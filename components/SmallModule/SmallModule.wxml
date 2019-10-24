@@ -1,0 +1,28 @@
+
+<view class="searchbar" wx:if="{{ThePage===0}}" wx:key>
+<view  class="bg-gradual-blue padding radius text-center shadow-blur">
+        <view class="bg-gray padding radius text-center shadow-blur,theone" bindtap="ChangePage">     
+        </view> 
+        <image class="search-inco" src="../../images/search.png"></image>   
+</view>
+</view>
+
+
+
+
+
+<view class="NewSearch" wx:if="{{ThePage === 1}}"  wx:key >
+        <cu-custom bgColor="bg-blue padding radius text-center light" ></cu-custom>
+        <view class="bg-blue padding radius text-center light ,gamecustom" >
+        <view class="gameBackGroup">
+                <text   bind:tap="ReturnBack" class="cuIcon-back,backOne"></text>
+                <text class="cuIcon-homefill,gameHome"></text>
+        </view>
+        <view class="searchtext">哼哼找不到了吧</view> 
+        </view>
+        <view  class="bg-gray padding radius text-center shadow-blur,thetwo">
+       
+                <input class="searchinput,bg-grey padding radius text-center light" type="text"  focus="true" placeholder="souwo">  </input>
+                   
+        </view>
+</view>

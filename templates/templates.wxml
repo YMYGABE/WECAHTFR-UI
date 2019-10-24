@@ -1,0 +1,13 @@
+<!--miniprogram/templates/templates.wxml-->
+<template name="TheRecommendCss">
+    <view class="message">
+        <!-- 资讯的标题 -->
+        <view class="Title , text-cut" >{{Title}}</view>
+        <view class="SmallMessage">
+            <image class="messageimage" src="{{imagsrc}}" />
+              
+            <text class="Summary" >{{Summary}}</text>
+        </view>
+                 
+    </view>
+</template>

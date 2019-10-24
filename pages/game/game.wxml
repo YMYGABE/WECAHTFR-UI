@@ -1,0 +1,15 @@
+<!--miniprogram/pages/game/game.wxml-->
+<!-- 测试用例 -->
+<!-- <view class="outPicture" bindtap="onClickBigView">
+    <view class="insetPicture" catchtap="onClickSmallView"></view>
+</view>
+
+<view class="outer-box">
+    <view class="install install1">1</view>
+    <view class="install install2">2</view>
+    <view class="install install3">3</view>
+    <view class="install install4">4</view>
+    <view class="install install5">5</view>
+    <view class="install install6">6</view>
+</view> -->
+<searchbar></searchbar>

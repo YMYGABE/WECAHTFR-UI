@@ -1,0 +1,42 @@
+<!--miniprogram/pages/home/home.wxml-->
+<import src="../../templates/templates.wxml" />
+<!-- 导航栏 -->
+<cu-custom bgColor="bg-gray padding radius text-center shadow-blur ,hometext"></cu-custom>
+<!-- <view class="AddPage" wx:if="{{Model=='iPhone X'}}" ></view> -->
+
+<!-- 切换栏 -->
+<scroll-view scroll-x class="bg-gray nav,homepage" scroll-with-animation scroll-left="{{scrollLeft}}">
+        <view class="cu-item {{0==TabCur?'text-green cur':''}} , Recommend"  wx:key bindtap="tabSelect" data-id="0" >
+            推荐
+        </view>
+        <view class="cu-item {{1==TabCur?'text-blue cur':''}} ,RainbowSix"  wx:key bindtap="tabSelect"  data-id="1">
+                彩虹六号
+            </view>
+            <view class="cu-item {{2==TabCur?'text-red cur':''}} ,PUBG"  wx:key bindtap="tabSelect" data-id="2">
+                    绝地求生
+                </view>
+                <view class="cu-item {{3==TabCur?'text-pink cur':''}} , PcGame"  wx:key bindtap="tabSelect" data-id="3">
+                        PC端游戏
+                    </view>
+ </scroll-view>
+
+<!-- 房间九宫格 -->
+<view class="Room">
+<navigator class="FindRoom,bg-olive padding radius text-center shadow-blur" url="/pages/FindRoom/FindRoom">寻找房间</navigator>
+
+<navigator class="CreateRoom ,bg-olive padding radius text-center shadow-blur" url="/pages/CreateRoom/CreateRoom">创建房间</navigator>
+</view>
+
+ <!-- 游戏资讯 -->
+<view class="RecommendPage" wx:if="{{HomePage==0}}"> 
+  <template is="TheRecommendCss" wx:key wx:for="{{messages}}" data="{{...item}}"></template>
+</view>
+<view class="RainbowSixPage" wx:if="{{HomePage==1}}">这是彩虹六号</view>
+<view class="PUBGPage" wx:if="{{HomePage==2}}">这是PUBG</view>
+<view class="PcGamePage" wx:if="{{HomePage==3}}">这是Pc</view>
+
+
+
+
+
+     
