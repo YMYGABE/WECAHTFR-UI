@@ -1,0 +1,28 @@
+/* miniprogram/pages/game/game.wxss */
+.gameSearch{
+  height: 265rpx;
+}
+/* 游戏的log样式 */
+.pubgLog,.lolLog,.dota2Log,.cai6Log,.GTA5Log,.CSGOLog,.ApexLog,.WarframLog,.OverwatchLog{
+  width: 150rpx;
+  height: 100rpx;
+
+}
+/*游戏显示所占各区域*/
+.PUBG,.LOL,.DOTA2,.cai6,.GTA5,.CSGO,.Apex,.Warfram,.Overwatch{
+  width: 100rpx;
+  height: 140rpx;
+  font-size: 24rpx;
+  margin-left: 36rpx;
+}
+/* 游戏名称 */
+.pubgText,.lolText,.dota2Text,.Text,cai6Text,.GTA5Text,.CSGOText,.ApexText,.WarframText,.OverwatchText{
+  position: absolute;
+  margin-left: 15rpx;
+}
+/* 设置板块排布样式，自动换行 */
+.allRecommend{
+  display: flex;
+  flex-wrap: wrap;
+}
+

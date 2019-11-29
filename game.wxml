@@ -1,0 +1,27 @@
+<!--miniprogram/pages/game/game.wxml-->
+<!-- 测试用例 -->
+<!-- <view class="outPicture" bindtap="onClickBigView">
+    <view class="insetPicture" catchtap="onClickSmallView"></view>
+</view>
+
+<view class="outer-box">
+    <view class="install install1">1</view>
+    <view class="install install2">2</view>
+    <view class="install install3">3</view>
+    <view class="install install4">4</view>
+    <view class="install install5">5</view>
+    <view class="install install6">6</view>
+</view> -->
+<searchbar class = "gameSearch"></searchbar>
+<view class="allRecommend">
+    <view class="PUBG"><image class="pubgLog" src="../../gameImages/1.png"></image><view class="pubgText">绝地求生</view></view>
+    <view class="LOL"><image class="lolLog" src="../../gameImages/2.png"></image><view class="lolText">英雄联盟</view></view>
+    <view class="DOTA2"><image class="dota2Log" src="../../gameImages/3.png"></image><view class="dota2Text">DOTA2</view></view>
+    <view class="cai6"><image class="cai6Log" src="../../gameImages/4.png"></image><view class="cai6Text">彩虹六号</view></view>
+    <view class="GTA5"><image class="GTA5Log" src="../../gameImages/5.png"></image><view class="GTA5Text">GTA 5</view></view>
+    <view class="CSGO"><image class="CSGOLog" src="../../gameImages/6.png"></image><view class="CSGOText">CS:GO</view></view>
+    <view class="Apex"><image class="ApexLog" src="../../gameImages/7.png"></image><view class="ApexText">Apex英雄</view></view>
+    <view class="Warfram"><image class="WarframLog" src="../../gameImages/8.png"></image><view class="WarframText">Warfram</view></view>
+    <view class="Overwatch"><image class="OverwatchLog" src="../../gameImages/9.png"></image><view class="OverwatchText">Overwatch</view></view>
+  
+  </view>
