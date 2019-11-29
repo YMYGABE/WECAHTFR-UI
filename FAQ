@@ -1,0 +1,27 @@
+小程序的基本文件后缀：wxml、wxss、js、json
+分别对应的功能是：
+wxml：html
+wxss：css
+js：js
+json：一般都存一些配置
+
+app.xx 是指全局
+
+标签
+div — view
+img — image
+span — text
+ps：标签上都会有不同的属性，用以不同的作用
+如view标签中使用hover-class: class名[String] 来代替css中的hover，即在css中设置hover样式是无效的
+
+空格问题
+text标签上的属性
+selectable: false/true
+space: false/nbsp
+decode: false/true
+
+像素问题
+在小程序中，默认所有机型都是750rpx*1334rpx
+就如同vw一样
+那rpx的值究竟是多少呢
+1rpx = 设计稿px / 750
